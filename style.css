@@ -1,0 +1,34 @@
+.title{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+label, input{
+    display: flex;
+    flex-direction: column;
+}
+.ad{
+    display: flex;
+  
+    justify-content: center;
+}
+.books{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.newbook{
+    height: 300px;
+    width: 200px;
+    font-size: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
